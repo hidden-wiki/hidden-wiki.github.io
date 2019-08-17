@@ -1,0 +1,234 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Marketplaces
+	AgarthaMarket
+		ojkqyqxraj2rzlyr.onion
+
+
+	AltBay
+		oroyn2yjxwsnbd3t.onion
+
+
+	ApollonMarket
+		6chfjp47en4uvaev.onion
+		5knfhibj36c7qstp.onion
+		xfjwcx2xdcue5ab7.onion
+		pip5l3ufeqtormav.onion
+		kun4bijir2fm7zsk.onion
+		plpgpxwwlk45e4jx.onion
+
+
+	Berlusconi Marketplace
+		jhjwlc56ffn5g37a.onion
+		obplr2trwvah2f26.onion
+		oc22ti32fhakzuec.onion
+		4iqfhqsf44t6rwj3.onion
+		woftjiaxi54f7vwt.onion
+		e2wfil6dzxtlkfuh.onion
+		pqz6f6rv3kytc3sh.onion
+		xp36rah6jdj2juwq.onion
+		xaxdjvchefbjgycz.onion
+		sxlbhndbm4tlhra6.onion
+		3audv5d3gdhtl2c5.onion
+		htqo5p4ui627pydu.onion
+		hqp4vf3awupsmehl.onion
+		jfdai6o7uvj7yyzm.onion
+		cztwnau4brncbs6c.onion
+		5ul5akkuls3r24o5.onion
+		ndts5r7h7tjacbtw.onion
+		tlqwu5zwolxvo435.onion
+		g4ftqmhxnvcefcrr.onion
+		k2ckryrcokpbqli7.onion
+		q5dqn46ftycugmom.onion
+		3v7abdg4cptygeug.onion
+		7mlj3lkwuxjjkqnu.onion
+		mgdnt3gquwszn67r.onion
+		vz3ibpixblglhruk.onion
+		eq2ecn5gnv7bmyed.onion
+		ussgilmj2wp25gla.onion
+		hi5gzyipgshhspcq.onion
+		7y5gq264ogpg5zsi.onion
+		pyvdiap2vh7gfr7b.onion
+		xdh7t6tvzfvdlg3i.onion
+		hevfjcgxmorgvvb2.onion
+		mxaj7dstqshjrdo4.onion
+		23zexijmadybkzbl.onion
+		5mxivnvuf5d3qfto.onion
+		lqkoc3v43b2cqwo3.onion
+		souogkqi2uchjchi.onion
+		7wveozezicsv3jj2.onion
+		4ubjla4v7sigiql6.onion
+		q2aapoxd7h3z3udk.onion
+		csqku2ie5zn4cn2q.onion
+		gy6ptvj75s3tuy3d.onion
+		6kiirgwqbjgdglo2.onion
+		c4gzum5a3xf5q33b.onion
+		rfwlur2bf7jvqg2w.onion
+		37j7c6zavyduxnzv.onion
+		hycz2g643jlfjjgu.onion
+		2tksxbfvbpivd7us.onion
+		54cp4t2zuiafnsut.onion
+
+
+	Canada Headquarters
+		g7ry4aeazog2bjai.onion
+
+
+	Cannazon
+		zun6qsvykndqpwao.onion
+
+
+	Cryptonia
+		jdzonaj4g3vcnc4z.onion
+
+
+	DarkBay
+		ylsdkcdhcis534fj.onion
+
+
+	DarkMarket
+		tmkq4grkzgfkmc4l.onion
+		ozk7jdlpdlfac27j.onion
+		daco6n7kp2lkorah.onion
+		g5h3vp4dxqkdavcc.onion
+
+
+	DeepMart
+		rovxf5afwk3ucv6k.onion
+		hs6d4wcwhltawont.onion
+
+
+	DreamALT
+		tp6u5itti3qckua3.onion
+		jgmxhulmxl2duadm.onion
+		thfqf67qwmcf22tv.onion
+		rihp4dz5pk3enyuk.onion
+
+
+	Empire Market
+		nvg2fpombbs7mxfn.onion
+		empire6sdxdjxak5.onion
+		pycnh2nfdwnj5blt.onion
+		efa6jjo4ojtjkayh.onion
+		noqfvv4xlv4ozup6.onion
+
+
+	Genesis Market
+		a7p3lo3xuhzknyty.onion
+		2waxxynv5rgnnx5n.onion
+		bmatbimrqzzywulf.onion
+		tf6bbz277mnbyi7p.onion
+		33rc3nawykrncwiy.onion
+		rtpcdtj6vjh67xei.onion
+		da27f3pkz4u6czlj.onion
+		utjd4ucsvxxh6dmy.onion
+		mfmw4xtyyymrvasm.onion
+		6ka6dtylg6sfyh74.onion
+		ivhyalgoguzs4pfx.onion
+		v5if3l4istotvpyj.onion
+		6s2cuvi6bxktgmas.onion
+		gzf3jpb3z6dd5a3c.onion
+		bhw624ytpqsnz3fw.onion
+		ljobncxbf2xblmgf.onion
+		6jcy2mmhfaaehxgk.onion
+		fydu3zfbw3zuibj6.onion
+		eqgf6j4a2sjoebqs.onion
+
+
+	GreenRoad
+		ijekufbtgjuhgqo5.onion
+
+
+	Grey Market
+		767ym54nzuvnvy3v.onion
+		aqjbow3rlmnbneli.onion
+		7twospofaylkhdq2.onion
+
+
+	Hydra
+		wl6xtxxuizdz2pwa.onion
+
+
+	Mega Darknet Market
+		mrst22jjjivby54u.onion
+		7n4b4ohhuwqo5hd6.onion
+
+
+	Monopoly Market
+		a2u5yvg5tuaztukz.onion
+		uche2gajgenbobvg.onion
+		n3jno2yhhgf3heke.onion
+
+
+	Nightmare Market
+		xpsohtw53wxjalh2.onion
+
+
+	Point /Tochka
+		sau3v2qeuki4zche.onion
+
+
+	Samsara Market
+		iumu6qwtg454bcb6.onion
+		axeovpnht27mthqc.onion
+		g4fkm44u3q6abzgi.onion
+		6rws4zdpaplbljeg.onion
+		zof2uvkn5y2zst5w.onion
+		wdlwwjxcyrv54vs3.onion
+		c5wttyhfhje7ig4b.onion
+		gg23n4mn6liwnn5l.onion
+		c7jpe5o3xz26tofo.onion
+		24wmcwnwpku3yxg6.onion
+		4vh2iykdm6qoa7ed.onion
+		sbdyb7e4zmbyg4ra.onion
+		ho456srfcirdd4tg.onion
+
+
+	Silkroad 3.1
+		xqpuifsluchbrmdo.onion
+
+
+	StealthBay
+		pq3on4txwfn7mv7g.onion
+		jqycoq2bxyqnpu5k.onion
+		vsyulzagd4bxesvh.onion
+
+
+	Tor Market
+		2ybydiviqbrbvc4d.onion
+
+
+	Yellow Brick
+		itfa42rybi3y2juy.onion
+		nhwtabl5cm5jp3ed.onion
+		5rsx2vukoj5gyqag.onion
+		brcbngv26wuyrbrj.onion
+		4tp4f7jwu5u43kby.onion
+		53dhq2b32upg4vyz.onion
+		rlk2qmzizbur5g4u.onion
+		66lubmbon4k3l2xm.onion
+		es4cnmnnl4gwamu3.onion
+
+
+	o3shop
+		edlgrymccuxhm2ff.onion
+
+
+
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCAAGBQJdV7XRAAoJEG982gwOmbb89C8P/iMW1EczJxfd4e+F1vAZmlhW
+LrpzSSa6X1PBDZb384uNzq2a3cAS11HDBsWHeVTnydY005wFZ7KR//7zI5w8GXXX
+Obk7nr7k/MvF4q6zCjJ1fHxA9MnRKUBauK3g8SmWwMfe+qPPzNI6gACbTXZc8hbk
+qQ6bZ5EQVKUF9h6RVJs8jSc4HzVUqlmx/rY1NwTNj3FKcmsaP0ehGRsIMotZZele
+++L+UpCTBrOpYizNTNTQTnH+xh2ctjy//EVPFklC/Em/hwG33aCo5go5qid/X7Fp
+I/M7hu1j0sjL13RbJjvACbnt1kqVkcl6lAb2akeIQzez2IC0eokGhby5zyhp2Rhp
+XYHqka1bqdsAx11jS+/1DZoUBbEjoyTxMbkx7Uw+kVt9+Da3pR3vP6Q1bpDLFtWw
+HNuz9BuyE7ZgTTWh02UdtIcKQrvqH92wrL7Ib6oCli+hjQBvxLT9wxkf1xAxGO5Q
+zMiXE5pT0JDY+Fh5tIItf+RPmG7RH8ptY7b0oQMc2Ot0ZE+wK2aoysedmsVDIuvT
+PXmCwta3XQCx16gD9nAbihm2M1m2qqBIFcnIlnyfZ86OpE01gZh6bT5lMqiu2j0n
+L9ocHfd99kivUj8zDj2pln9jv5wjLPBLq4EAP6eXDIZtIRBjWOwQa+kfw01IU+bh
+tckuQOI+3+Ros1CPdQif
+=2A5M
+-----END PGP SIGNATURE-----
