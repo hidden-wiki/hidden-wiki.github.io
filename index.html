@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>hidden-wiki</title>
+  <style>@charset "UTF-8";
+/*!
+ * awsm.css v3.0.3 (https://igoradamenko.github.io/awsm.css/)
+ * Copyright 2015 Igor Adamenko <mail@igoradamenko.com> (https://igoradamenko.com)
+ * Licensed under MIT (https://github.com/igoradamenko/awsm.css/blob/master/LICENSE.md)
+ */
+html{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"PT Sans","Open Sans","Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:100%;line-height:1.4;background:#fff;color:#000;-webkit-overflow-scrolling:touch}body{margin:1.2em;font-size:1rem}@media (min-width:20rem){body{font-size:calc(1rem + .00625*(100vw - 20rem))}}@media (min-width:40rem){body{font-size:1.125rem}}body article,body footer,body header,body main{position:relative;max-width:40rem;margin:0 auto}body>header{margin-bottom:3.5em}body>header h1{margin:0;font-size:1.5em}body>header p{margin:0;font-size:.85em}body>footer{margin-top:6em;padding-bottom:1.5em;text-align:center;font-size:.8rem;color:#aaa}details,nav,p{margin:1em 0}nav ul{list-style:none;padding:0}nav li{display:inline-block;margin-right:1em;margin-bottom:.25em}a,nav a:visited{color:#0064c1}article header h1 a:visited:hover,article header h2 a:visited:hover,nav a:hover{color:#f00000}ol,ul{margin-top:0;padding-top:0;padding-left:2.5em}article header h1+p,article header h2+p,ol li+li,ul li+li{margin-top:.25em}nav ul,ol li>details,ul li>details{margin:0}p{-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}aside:first-child,form legend:first-child+label,p:first-child{margin-top:0}aside:last-child,p:last-child{margin-bottom:0}p+ol,p+ul{margin-top:-.75em}p img,p picture{float:right;margin-bottom:.5em;margin-left:.5em}p picture img{float:none;margin:0}blockquote,dd{padding-left:2.5em}dd{margin-bottom:1em;margin-left:0}dt{font-weight:700}blockquote{margin:0}aside{margin:.5em 0;font-style:italic;color:#aaa}@media (min-width:65rem){aside{position:absolute;right:-12.5rem;width:9.375rem;max-width:9.375rem;margin:0;padding-left:.5em;font-size:.8em;border-left:1px solid #f2f2f2}}section+section{margin-top:2em}h1,h2,h3,h4,h5,h6{margin:1.25em 0 0;line-height:1.2}h1:focus>a[href^="#"][id]:empty,h1:hover>a[href^="#"][id]:empty,h2:focus>a[href^="#"][id]:empty,h2:hover>a[href^="#"][id]:empty,h3:focus>a[href^="#"][id]:empty,h3:hover>a[href^="#"][id]:empty,h4:focus>a[href^="#"][id]:empty,h4:hover>a[href^="#"][id]:empty,h5:focus>a[href^="#"][id]:empty,h5:hover>a[href^="#"][id]:empty,h6:focus>a[href^="#"][id]:empty,h6:hover>a[href^="#"][id]:empty{opacity:1}figure+p,h1+details,h1+p,h2+details,h2+p,h3+details,h3+p,h4+details,h4+p,h5+details,h5+p,h6+details,h6+p{margin-top:.5em}h1>a[href^="#"][id]:empty,h2>a[href^="#"][id]:empty,h3>a[href^="#"][id]:empty,h4>a[href^="#"][id]:empty,h5>a[href^="#"][id]:empty,h6>a[href^="#"][id]:empty{position:absolute;left:-.65em;opacity:0;text-decoration:none;font-weight:400;line-height:1;color:#aaa}@media (min-width:40rem){h1>a[href^="#"][id]:empty,h2>a[href^="#"][id]:empty,h3>a[href^="#"][id]:empty,h4>a[href^="#"][id]:empty,h5>a[href^="#"][id]:empty,h6>a[href^="#"][id]:empty{left:-.8em}}h1>a[href^="#"][id]:empty:focus,h1>a[href^="#"][id]:empty:hover,h1>a[href^="#"][id]:empty:target,h2>a[href^="#"][id]:empty:focus,h2>a[href^="#"][id]:empty:hover,h2>a[href^="#"][id]:empty:target,h3>a[href^="#"][id]:empty:focus,h3>a[href^="#"][id]:empty:hover,h3>a[href^="#"][id]:empty:target,h4>a[href^="#"][id]:empty:focus,h4>a[href^="#"][id]:empty:hover,h4>a[href^="#"][id]:empty:target,h5>a[href^="#"][id]:empty:focus,h5>a[href^="#"][id]:empty:hover,h5>a[href^="#"][id]:empty:target,h6>a[href^="#"][id]:empty:focus,h6>a[href^="#"][id]:empty:hover,h6>a[href^="#"][id]:empty:target{opacity:1;box-shadow:none;color:#000}h1>a[href^="#"][id]:empty:target:focus,h2>a[href^="#"][id]:empty:target:focus,h3>a[href^="#"][id]:empty:target:focus,h4>a[href^="#"][id]:empty:target:focus,h5>a[href^="#"][id]:empty:target:focus,h6>a[href^="#"][id]:empty:target:focus{outline:0}h1>a[href^="#"][id]:empty::before,h2>a[href^="#"][id]:empty::before,h3>a[href^="#"][id]:empty::before,h4>a[href^="#"][id]:empty::before,h5>a[href^="#"][id]:empty::before,h6>a[href^="#"][id]:empty::before{content:"§ "}h1{font-size:2.5em}h2{font-size:1.75em}h3{font-size:1.25em}h4{font-size:1.15em}a abbr,h5,h6{font-size:1em}h6{margin-top:1em}article+article{margin-top:4em}article header p{font-size:.6em;color:#aaa}article header p+h1,article header p+h2{margin-top:-.25em}article header h1 a,article header h2 a{color:#000}article header h1 a:visited,article header h2 a:visited,h6,legend{color:#aaa}article>footer{margin-top:1.5em;font-size:.85em}a:visited{color:#8d39d0}a:active,a:hover{outline-width:0}a:hover{color:#f00000}abbr{margin-right:-.075em;text-decoration:none;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none;letter-spacing:.075em;font-size:.9em}img,picture{display:block;max-width:100%;margin:0 auto}audio,video{width:100%;max-width:100%}figure{margin:1em 0 .5em;padding:0}figure figcaption{opacity:.65;font-size:.85em}table{display:inline-block;border-spacing:0;border-collapse:collapse;overflow-x:auto;max-width:100%;text-align:left;vertical-align:top;background:linear-gradient(rgba(0,0,0,.15) 0%,rgba(0,0,0,.15) 100%) 0 0,linear-gradient(rgba(0,0,0,.15) 0%,rgba(0,0,0,.15) 100%) 100% 0;background-attachment:scroll,scroll;background-size:1px 100%,1px 100%;background-repeat:no-repeat,no-repeat}table caption{font-size:.9em;background:#fff}table td,table th{padding:.35em .75em;vertical-align:top;font-size:.9em;border:1px solid #f2f2f2;border-top:0;border-left:0}table td:first-child,table th:first-child{padding-left:0;background-image:linear-gradient(to right,#fff 50%,rgba(255,255,255,0) 100%);background-size:2px 100%;background-repeat:no-repeat}table td:last-child,table th:last-child{padding-right:0;border-right:0;background-image:linear-gradient(to left,#fff 50%,rgba(255,255,255,0) 100%);background-position:100% 0;background-size:2px 100%;background-repeat:no-repeat}table td:only-child,table th:only-child{background-image:linear-gradient(to right,#fff 50%,rgba(255,255,255,0) 100%),linear-gradient(to left,#fff 50%,rgba(255,255,255,0) 100%);background-position:0 0,100% 0;background-size:2px 100%,2px 100%;background-repeat:no-repeat,no-repeat}table th{line-height:1.2}form{margin-right:auto;margin-left:auto}@media (min-width:40rem){form{max-width:80%}}form label,form select,output{display:block}form label:not(:first-child){margin-top:1em}form p label{display:inline}form p label+label{margin-left:1em}form input[type],form select,form textarea{margin-bottom:1em}form input[type=checkbox],form input[type=radio]{margin-bottom:0}button,fieldset{margin:0;border:1px solid #aaa}fieldset{padding:.5em 1em}button{outline:0;box-sizing:border-box;height:2em;padding:calc(.25em - 1px) .5em;font-family:inherit;font-size:1em;border-radius:2px;background:#fff;display:inline-block;width:auto;background:#f2f2f2;color:#000;cursor:pointer}button:focus,input[type=email]:focus,input[type=month]:focus,input[type=number]:focus,input[type=password]:focus,input[type=search]:focus,input[type=tel]:focus,input[type=text]:focus,input[type=time]:focus,input[type=url]:focus,input[type=week]:focus,input[type^=date]:focus,select:focus{border:1px solid #000}button:hover,select:hover{border:1px solid #000}button:active,select:active{background-color:#aaa}select{outline:0;box-sizing:border-box;height:2em;margin:0;padding:calc(.25em - 1px) .5em;font-family:inherit;font-size:1em;border:1px solid #aaa;border-radius:2px;background:#fff;display:inline-block;width:auto;background:#f2f2f2;color:#000;cursor:pointer;padding-right:1.2em;background-position:top 55% right .35em;background-size:.5em;background-repeat:no-repeat;-webkit-appearance:button;-moz-appearance:button;appearance:button;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Cpath fill='rgb(170, 170, 170)' fill-rule='nonzero' d='M1.5 2L3 0H0z'/%3E%3C/svg%3E")}select:focus,select:hover{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Cpath fill='rgb(0, 0, 0)' fill-rule='nonzero' d='M1.5 2L3 0H0z'/%3E%3C/svg%3E")}input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],input[type^=date]{outline:0;box-sizing:border-box;height:2em;margin:0;padding:calc(.25em - 1px) .5em;font-family:inherit;font-size:1em;border:1px solid #aaa;border-radius:2px;background:#fff;color:#000;display:block;width:100%;line-height:calc(2em - 1px*2 - (.25em - 1px)*2);-webkit-appearance:none;-moz-appearance:none;appearance:none}input[type=email]::-moz-placeholder,input[type=month]::-moz-placeholder,input[type=number]::-moz-placeholder,input[type=password]::-moz-placeholder,input[type=search]::-moz-placeholder,input[type=tel]::-moz-placeholder,input[type=text]::-moz-placeholder,input[type=time]::-moz-placeholder,input[type=url]::-moz-placeholder,input[type=week]::-moz-placeholder,input[type^=date]::-moz-placeholder{color:#aaa}input[type=email]::-webkit-input-placeholder,input[type=month]::-webkit-input-placeholder,input[type=number]::-webkit-input-placeholder,input[type=password]::-webkit-input-placeholder,input[type=search]::-webkit-input-placeholder,input[type=tel]::-webkit-input-placeholder,input[type=text]::-webkit-input-placeholder,input[type=time]::-webkit-input-placeholder,input[type=url]::-webkit-input-placeholder,input[type=week]::-webkit-input-placeholder,input[type^=date]::-webkit-input-placeholder{color:#aaa}input[type=email]:-ms-input-placeholder,input[type=month]:-ms-input-placeholder,input[type=number]:-ms-input-placeholder,input[type=password]:-ms-input-placeholder,input[type=search]:-ms-input-placeholder,input[type=tel]:-ms-input-placeholder,input[type=text]:-ms-input-placeholder,input[type=time]:-ms-input-placeholder,input[type=url]:-ms-input-placeholder,input[type=week]:-ms-input-placeholder,input[type^=date]:-ms-input-placeholder{color:#aaa}input[type=button],input[type=reset],input[type=submit]{outline:0;box-sizing:border-box;height:2em;margin:0;padding:calc(.25em - 1px) .5em;font-family:inherit;font-size:1em;border:1px solid #aaa;border-radius:2px;background:#fff;display:inline-block;width:auto;background:#f2f2f2;color:#000;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none}input[type=button]:focus,input[type=reset]:focus,input[type=submit]:focus{border:1px solid #000}input[type=button]:hover,input[type=reset]:hover,input[type=submit]:hover{border:1px solid #000}input[type=button]:active,input[type=reset]:active,input[type=submit]:active{background-color:#aaa}input[type=color]{outline:0;box-sizing:border-box;height:2em;margin:0;padding:calc(.25em - 1px) .5em;font-family:inherit;font-size:1em;border:1px solid #aaa;border-radius:2px;background:#fff;color:#000;display:block;line-height:calc(2em - 1px*2 - (.25em - 1px)*2);-webkit-appearance:none;-moz-appearance:none;appearance:none;width:6em}input[type=color]:focus{border:1px solid #000}input[type=color]::-moz-placeholder,textarea::-moz-placeholder{color:#aaa}input[type=color]::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#aaa}input[type=color]:-ms-input-placeholder{color:#aaa}input[type=color]:hover{border:1px solid #000}input[type=file]{outline:0;box-sizing:border-box;margin:0;padding:calc(.25em - 1px) .5em;font-family:inherit;border:1px solid #aaa;border-radius:2px;background:#fff;background:#f2f2f2;color:#000;cursor:pointer;display:block;width:100%;height:auto;padding:.75em .5em;font-size:12px;line-height:1}input[type=file]:focus,textarea:focus{border:1px solid #000}input[type=file]:hover{border:1px solid #000}input[type=file]:active{background-color:#aaa}input[type=checkbox],input[type=radio]{margin:-.2em .75em 0 0;vertical-align:middle}textarea{outline:0;box-sizing:border-box;margin:0;padding:calc(.25em - 1px) .5em;font-family:inherit;font-size:1em;border:1px solid #aaa;border-radius:2px;background:#fff;color:#000;display:block;width:100%;line-height:calc(2em - 1px*2 - (.25em - 1px)*2);-webkit-appearance:none;-moz-appearance:none;appearance:none;height:4.5em;resize:vertical;padding-top:.5em;padding-bottom:.5em}textarea:-ms-input-placeholder{color:#aaa}code,kbd,samp,var{font-family:Consolas,"Lucida Console",Monaco,monospace;font-style:normal}pre{overflow-x:auto;font-size:.8em;background:linear-gradient(rgba(0,0,0,.15) 0%,rgba(0,0,0,.15) 100%) 0 0,linear-gradient(rgba(0,0,0,.15) 0%,rgba(0,0,0,.15) 100%) 100% 0;background-attachment:scroll,scroll;background-size:1px 100%,1px 100%;background-repeat:no-repeat,no-repeat}pre>code,summary{display:inline-block}pre>code{overflow-x:visible;box-sizing:border-box;min-width:100%;border-right:3px solid #fff;border-left:1px solid #fff}hr{height:1px;margin:2em 0;border:0;background:#f2f2f2}details[open]{padding-bottom:.5em;border-bottom:1px solid #f2f2f2}summary{font-weight:700;border-bottom:1px dashed;cursor:pointer}summary::-webkit-details-marker{display:none}noscript{color:#d00000}::selection{background:rgba(0,100,193,.25)}</style>
+ </head>
+ <body>
+  <section container>
+  <h1>hidden-wiki</h1>
+  <p>Daily updated list of darkne market mirrors.</p>
+    
+        <h3>AgarthaMarket</h3>
+        <ul>
+          
+          <li><a href="http://ojkqyqxraj2rzlyr.onion">ojkqyqxraj2rzlyr.onion</a></li>
+          
+        </ul>
+    
+        <h3>AltBay</h3>
+        <ul>
+          
+          <li><a href="http://oroyn2yjxwsnbd3t.onion">oroyn2yjxwsnbd3t.onion</a></li>
+          
+        </ul>
+    
+        <h3>ApollonMarket</h3>
+        <ul>
+          
+          <li><a href="http://6chfjp47en4uvaev.onion">6chfjp47en4uvaev.onion</a></li>
+          
+          <li><a href="http://5knfhibj36c7qstp.onion">5knfhibj36c7qstp.onion</a></li>
+          
+          <li><a href="http://xfjwcx2xdcue5ab7.onion">xfjwcx2xdcue5ab7.onion</a></li>
+          
+          <li><a href="http://pip5l3ufeqtormav.onion">pip5l3ufeqtormav.onion</a></li>
+          
+          <li><a href="http://kun4bijir2fm7zsk.onion">kun4bijir2fm7zsk.onion</a></li>
+          
+          <li><a href="http://plpgpxwwlk45e4jx.onion">plpgpxwwlk45e4jx.onion</a></li>
+          
+        </ul>
+    
+        <h3>Berlusconi Marketplace</h3>
+        <ul>
+          
+          <li><a href="http://jhjwlc56ffn5g37a.onion">jhjwlc56ffn5g37a.onion</a></li>
+          
+          <li><a href="http://obplr2trwvah2f26.onion">obplr2trwvah2f26.onion</a></li>
+          
+          <li><a href="http://oc22ti32fhakzuec.onion">oc22ti32fhakzuec.onion</a></li>
+          
+          <li><a href="http://4iqfhqsf44t6rwj3.onion">4iqfhqsf44t6rwj3.onion</a></li>
+          
+          <li><a href="http://3byzkxahztlmnhur.onion">3byzkxahztlmnhur.onion</a></li>
+          
+          <li><a href="http://woftjiaxi54f7vwt.onion">woftjiaxi54f7vwt.onion</a></li>
+          
+          <li><a href="http://e2wfil6dzxtlkfuh.onion">e2wfil6dzxtlkfuh.onion</a></li>
+          
+          <li><a href="http://pqz6f6rv3kytc3sh.onion">pqz6f6rv3kytc3sh.onion</a></li>
+          
+          <li><a href="http://xp36rah6jdj2juwq.onion">xp36rah6jdj2juwq.onion</a></li>
+          
+          <li><a href="http://xaxdjvchefbjgycz.onion">xaxdjvchefbjgycz.onion</a></li>
+          
+          <li><a href="http://sxlbhndbm4tlhra6.onion">sxlbhndbm4tlhra6.onion</a></li>
+          
+          <li><a href="http://3audv5d3gdhtl2c5.onion">3audv5d3gdhtl2c5.onion</a></li>
+          
+          <li><a href="http://htqo5p4ui627pydu.onion">htqo5p4ui627pydu.onion</a></li>
+          
+          <li><a href="http://hqp4vf3awupsmehl.onion">hqp4vf3awupsmehl.onion</a></li>
+          
+          <li><a href="http://jfdai6o7uvj7yyzm.onion">jfdai6o7uvj7yyzm.onion</a></li>
+          
+          <li><a href="http://cztwnau4brncbs6c.onion">cztwnau4brncbs6c.onion</a></li>
+          
+          <li><a href="http://5ul5akkuls3r24o5.onion">5ul5akkuls3r24o5.onion</a></li>
+          
+          <li><a href="http://ammducmjt7btvyd2.onion">ammducmjt7btvyd2.onion</a></li>
+          
+          <li><a href="http://i74cdpl7n523pycq.onion">i74cdpl7n523pycq.onion</a></li>
+          
+          <li><a href="http://ndts5r7h7tjacbtw.onion">ndts5r7h7tjacbtw.onion</a></li>
+          
+          <li><a href="http://tlqwu5zwolxvo435.onion">tlqwu5zwolxvo435.onion</a></li>
+          
+          <li><a href="http://g4ftqmhxnvcefcrr.onion">g4ftqmhxnvcefcrr.onion</a></li>
+          
+          <li><a href="http://k2ckryrcokpbqli7.onion">k2ckryrcokpbqli7.onion</a></li>
+          
+          <li><a href="http://q5dqn46ftycugmom.onion">q5dqn46ftycugmom.onion</a></li>
+          
+          <li><a href="http://ro6nciotq2di5goa.onion">ro6nciotq2di5goa.onion</a></li>
+          
+          <li><a href="http://3v7abdg4cptygeug.onion">3v7abdg4cptygeug.onion</a></li>
+          
+          <li><a href="http://7mlj3lkwuxjjkqnu.onion">7mlj3lkwuxjjkqnu.onion</a></li>
+          
+          <li><a href="http://mgdnt3gquwszn67r.onion">mgdnt3gquwszn67r.onion</a></li>
+          
+          <li><a href="http://vz3ibpixblglhruk.onion">vz3ibpixblglhruk.onion</a></li>
+          
+          <li><a href="http://f5coonbrrejvkptr.onion">f5coonbrrejvkptr.onion</a></li>
+          
+          <li><a href="http://eq2ecn5gnv7bmyed.onion">eq2ecn5gnv7bmyed.onion</a></li>
+          
+          <li><a href="http://x4f2m6qkpmgcz4hm.onion">x4f2m6qkpmgcz4hm.onion</a></li>
+          
+          <li><a href="http://2tkc7bmo3scj6vkz.onion">2tkc7bmo3scj6vkz.onion</a></li>
+          
+          <li><a href="http://ussgilmj2wp25gla.onion">ussgilmj2wp25gla.onion</a></li>
+          
+          <li><a href="http://hi5gzyipgshhspcq.onion">hi5gzyipgshhspcq.onion</a></li>
+          
+          <li><a href="http://7y5gq264ogpg5zsi.onion">7y5gq264ogpg5zsi.onion</a></li>
+          
+          <li><a href="http://pyvdiap2vh7gfr7b.onion">pyvdiap2vh7gfr7b.onion</a></li>
+          
+          <li><a href="http://n6rksjf6wqj2tfio.onion">n6rksjf6wqj2tfio.onion</a></li>
+          
+          <li><a href="http://3pjnlg4zusbuwgi3.onion">3pjnlg4zusbuwgi3.onion</a></li>
+          
+          <li><a href="http://rf3mu34vmainuqah.onion">rf3mu34vmainuqah.onion</a></li>
+          
+          <li><a href="http://oum34co7phscnvk4.onion">oum34co7phscnvk4.onion</a></li>
+          
+          <li><a href="http://xdh7t6tvzfvdlg3i.onion">xdh7t6tvzfvdlg3i.onion</a></li>
+          
+          <li><a href="http://fgxmkjysr4li3ptu.onion">fgxmkjysr4li3ptu.onion</a></li>
+          
+          <li><a href="http://hevfjcgxmorgvvb2.onion">hevfjcgxmorgvvb2.onion</a></li>
+          
+          <li><a href="http://mxaj7dstqshjrdo4.onion">mxaj7dstqshjrdo4.onion</a></li>
+          
+          <li><a href="http://23zexijmadybkzbl.onion">23zexijmadybkzbl.onion</a></li>
+          
+          <li><a href="http://5mxivnvuf5d3qfto.onion">5mxivnvuf5d3qfto.onion</a></li>
+          
+          <li><a href="http://lqkoc3v43b2cqwo3.onion">lqkoc3v43b2cqwo3.onion</a></li>
+          
+          <li><a href="http://souogkqi2uchjchi.onion">souogkqi2uchjchi.onion</a></li>
+          
+          <li><a href="http://7wveozezicsv3jj2.onion">7wveozezicsv3jj2.onion</a></li>
+          
+          <li><a href="http://4ubjla4v7sigiql6.onion">4ubjla4v7sigiql6.onion</a></li>
+          
+          <li><a href="http://m454amr5auckgixs.onion">m454amr5auckgixs.onion</a></li>
+          
+          <li><a href="http://q2aapoxd7h3z3udk.onion">q2aapoxd7h3z3udk.onion</a></li>
+          
+          <li><a href="http://mbm72nk4fvuy7aqw.onion">mbm72nk4fvuy7aqw.onion</a></li>
+          
+          <li><a href="http://6xwmdfka27yel4ed.onion">6xwmdfka27yel4ed.onion</a></li>
+          
+          <li><a href="http://csqku2ie5zn4cn2q.onion">csqku2ie5zn4cn2q.onion</a></li>
+          
+          <li><a href="http://vd6kjh7uv4fizcas.onion">vd6kjh7uv4fizcas.onion</a></li>
+          
+          <li><a href="http://gy6ptvj75s3tuy3d.onion">gy6ptvj75s3tuy3d.onion</a></li>
+          
+          <li><a href="http://g6y6ggzs2omnnx5i.onion">g6y6ggzs2omnnx5i.onion</a></li>
+          
+          <li><a href="http://3w2vh3h6mzb7pgmt.onion">3w2vh3h6mzb7pgmt.onion</a></li>
+          
+          <li><a href="http://6kiirgwqbjgdglo2.onion">6kiirgwqbjgdglo2.onion</a></li>
+          
+          <li><a href="http://4jcuwmmil6kq7hko.onion">4jcuwmmil6kq7hko.onion</a></li>
+          
+          <li><a href="http://c4gzum5a3xf5q33b.onion">c4gzum5a3xf5q33b.onion</a></li>
+          
+          <li><a href="http://rfwlur2bf7jvqg2w.onion">rfwlur2bf7jvqg2w.onion</a></li>
+          
+          <li><a href="http://37j7c6zavyduxnzv.onion">37j7c6zavyduxnzv.onion</a></li>
+          
+          <li><a href="http://hycz2g643jlfjjgu.onion">hycz2g643jlfjjgu.onion</a></li>
+          
+          <li><a href="http://2tksxbfvbpivd7us.onion">2tksxbfvbpivd7us.onion</a></li>
+          
+          <li><a href="http://foyw2pwhee5dsj7l.onion">foyw2pwhee5dsj7l.onion</a></li>
+          
+          <li><a href="http://mi3wjfpc7awdzeoi.onion">mi3wjfpc7awdzeoi.onion</a></li>
+          
+          <li><a href="http://asrbkn45hp37fsaw.onion">asrbkn45hp37fsaw.onion</a></li>
+          
+          <li><a href="http://ll6c5ns4tvgkno6o.onion">ll6c5ns4tvgkno6o.onion</a></li>
+          
+          <li><a href="http://54cp4t2zuiafnsut.onion">54cp4t2zuiafnsut.onion</a></li>
+          
+          <li><a href="http://mjm4ulsryhnlecjs.onion">mjm4ulsryhnlecjs.onion</a></li>
+          
+          <li><a href="http://sghbbrln3e2zeq5y.onion">sghbbrln3e2zeq5y.onion</a></li>
+          
+          <li><a href="http://ouwa4mv3zilv2qvt.onion">ouwa4mv3zilv2qvt.onion</a></li>
+          
+          <li><a href="http://s5rdwytohuzth3b4.onion">s5rdwytohuzth3b4.onion</a></li>
+          
+          <li><a href="http://te4qknipaloq27fg.onion">te4qknipaloq27fg.onion</a></li>
+          
+          <li><a href="http://e5g6p7khnkz2mmx6.onion">e5g6p7khnkz2mmx6.onion</a></li>
+          
+          <li><a href="http://bpkrinj725a2j7c3.onion">bpkrinj725a2j7c3.onion</a></li>
+          
+          <li><a href="http://2nzvkorfnad4cfcb.onion">2nzvkorfnad4cfcb.onion</a></li>
+          
+        </ul>
+    
+        <h3>Black Mart</h3>
+        <ul>
+          
+          <li><a href="http://xjacevibjl4nbdyw.onion">xjacevibjl4nbdyw.onion</a></li>
+          
+        </ul>
+    
+        <h3>Canada Headquarters</h3>
+        <ul>
+          
+          <li><a href="http://g7ry4aeazog2bjai.onion">g7ry4aeazog2bjai.onion</a></li>
+          
+        </ul>
+    
+        <h3>Cannazon</h3>
+        <ul>
+          
+          <li><a href="http://zun6qsvykndqpwao.onion">zun6qsvykndqpwao.onion</a></li>
+          
+        </ul>
+    
+        <h3>Cocaine Market</h3>
+        <ul>
+          
+        </ul>
+    
+        <h3>CoreMarket</h3>
+        <ul>
+          
+        </ul>
+    
+        <h3>Cryptonia</h3>
+        <ul>
+          
+          <li><a href="http://jdzonaj4g3vcnc4z.onion">jdzonaj4g3vcnc4z.onion</a></li>
+          
+        </ul>
+    
+        <h3>DarkBay</h3>
+        <ul>
+          
+          <li><a href="http://ylsdkcdhcis534fj.onion">ylsdkcdhcis534fj.onion</a></li>
+          
+        </ul>
+    
+        <h3>DarkMarket</h3>
+        <ul>
+          
+          <li><a href="http://tmkq4grkzgfkmc4l.onion">tmkq4grkzgfkmc4l.onion</a></li>
+          
+          <li><a href="http://ozk7jdlpdlfac27j.onion">ozk7jdlpdlfac27j.onion</a></li>
+          
+          <li><a href="http://daco6n7kp2lkorah.onion">daco6n7kp2lkorah.onion</a></li>
+          
+          <li><a href="http://g5h3vp4dxqkdavcc.onion">g5h3vp4dxqkdavcc.onion</a></li>
+          
+        </ul>
+    
+        <h3>DarkShades Market</h3>
+        <ul>
+          
+        </ul>
+    
+        <h3>DeepMart</h3>
+        <ul>
+          
+          <li><a href="http://rovxf5afwk3ucv6k.onion">rovxf5afwk3ucv6k.onion</a></li>
+          
+          <li><a href="http://hs6d4wcwhltawont.onion">hs6d4wcwhltawont.onion</a></li>
+          
+        </ul>
+    
+        <h3>DreamALT</h3>
+        <ul>
+          
+          <li><a href="http://tp6u5itti3qckua3.onion">tp6u5itti3qckua3.onion</a></li>
+          
+          <li><a href="http://jgmxhulmxl2duadm.onion">jgmxhulmxl2duadm.onion</a></li>
+          
+          <li><a href="http://thfqf67qwmcf22tv.onion">thfqf67qwmcf22tv.onion</a></li>
+          
+          <li><a href="http://rihp4dz5pk3enyuk.onion">rihp4dz5pk3enyuk.onion</a></li>
+          
+          <li><a href="http://sgjoank3mnjthvs5.onion">sgjoank3mnjthvs5.onion</a></li>
+          
+        </ul>
+    
+        <h3>DrugMarket</h3>
+        <ul>
+          
+        </ul>
+    
+        <h3>DrugStore</h3>
+        <ul>
+          
+        </ul>
+    
+        <h3>Empire Market</h3>
+        <ul>
+          
+          <li><a href="http://nvg2fpombbs7mxfn.onion">nvg2fpombbs7mxfn.onion</a></li>
+          
+          <li><a href="http://empirexuuftfod6z.onion">empirexuuftfod6z.onion</a></li>
+          
+          <li><a href="http://empire6sdxdjxak5.onion">empire6sdxdjxak5.onion</a></li>
+          
+          <li><a href="http://utled2rvxpiwbhxr.onion">utled2rvxpiwbhxr.onion</a></li>
+          
+          <li><a href="http://pycnh2nfdwnj5blt.onion">pycnh2nfdwnj5blt.onion</a></li>
+          
+          <li><a href="http://efa6jjo4ojtjkayh.onion">efa6jjo4ojtjkayh.onion</a></li>
+          
+          <li><a href="http://noqfvv4xlv4ozup6.onion">noqfvv4xlv4ozup6.onion</a></li>
+          
+        </ul>
+    
+        <h3>Genesis Market</h3>
+        <ul>
+          
+          <li><a href="http://a7p3lo3xuhzknyty.onion">a7p3lo3xuhzknyty.onion</a></li>
+          
+          <li><a href="http://2waxxynv5rgnnx5n.onion">2waxxynv5rgnnx5n.onion</a></li>
+          
+          <li><a href="http://bmatbimrqzzywulf.onion">bmatbimrqzzywulf.onion</a></li>
+          
+          <li><a href="http://tf6bbz277mnbyi7p.onion">tf6bbz277mnbyi7p.onion</a></li>
+          
+          <li><a href="http://33rc3nawykrncwiy.onion">33rc3nawykrncwiy.onion</a></li>
+          
+          <li><a href="http://rtpcdtj6vjh67xei.onion">rtpcdtj6vjh67xei.onion</a></li>
+          
+          <li><a href="http://da27f3pkz4u6czlj.onion">da27f3pkz4u6czlj.onion</a></li>
+          
+          <li><a href="http://utjd4ucsvxxh6dmy.onion">utjd4ucsvxxh6dmy.onion</a></li>
+          
+          <li><a href="http://mfmw4xtyyymrvasm.onion">mfmw4xtyyymrvasm.onion</a></li>
+          
+          <li><a href="http://6ka6dtylg6sfyh74.onion">6ka6dtylg6sfyh74.onion</a></li>
+          
+          <li><a href="http://ivhyalgoguzs4pfx.onion">ivhyalgoguzs4pfx.onion</a></li>
+          
+          <li><a href="http://v5if3l4istotvpyj.onion">v5if3l4istotvpyj.onion</a></li>
+          
+          <li><a href="http://6s2cuvi6bxktgmas.onion">6s2cuvi6bxktgmas.onion</a></li>
+          
+          <li><a href="http://gzf3jpb3z6dd5a3c.onion">gzf3jpb3z6dd5a3c.onion</a></li>
+          
+          <li><a href="http://bhw624ytpqsnz3fw.onion">bhw624ytpqsnz3fw.onion</a></li>
+          
+          <li><a href="http://ljobncxbf2xblmgf.onion">ljobncxbf2xblmgf.onion</a></li>
+          
+          <li><a href="http://6jcy2mmhfaaehxgk.onion">6jcy2mmhfaaehxgk.onion</a></li>
+          
+          <li><a href="http://fbfh55codtuxzrlh.onion">fbfh55codtuxzrlh.onion</a></li>
+          
+          <li><a href="http://fydu3zfbw3zuibj6.onion">fydu3zfbw3zuibj6.onion</a></li>
+          
+          <li><a href="http://eqgf6j4a2sjoebqs.onion">eqgf6j4a2sjoebqs.onion</a></li>
+          
+        </ul>
+    
+        <h3>GreenRoad</h3>
+        <ul>
+          
+          <li><a href="http://ijekufbtgjuhgqo5.onion">ijekufbtgjuhgqo5.onion</a></li>
+          
+        </ul>
+    
+        <h3>Grey Market</h3>
+        <ul>
+          
+          <li><a href="http://767ym54nzuvnvy3v.onion">767ym54nzuvnvy3v.onion</a></li>
+          
+          <li><a href="http://aqjbow3rlmnbneli.onion">aqjbow3rlmnbneli.onion</a></li>
+          
+          <li><a href="http://7twospofaylkhdq2.onion">7twospofaylkhdq2.onion</a></li>
+          
+        </ul>
+    
+        <h3>Hydra</h3>
+        <ul>
+          
+          <li><a href="http://wl6xtxxuizdz2pwa.onion">wl6xtxxuizdz2pwa.onion</a></li>
+          
+        </ul>
+    
+        <h3>Mega Darknet Market</h3>
+        <ul>
+          
+          <li><a href="http://mrst22jjjivby54u.onion">mrst22jjjivby54u.onion</a></li>
+          
+          <li><a href="http://7n4b4ohhuwqo5hd6.onion">7n4b4ohhuwqo5hd6.onion</a></li>
+          
+        </ul>
+    
+        <h3>Monopoly Market</h3>
+        <ul>
+          
+          <li><a href="http://a2u5yvg5tuaztukz.onion">a2u5yvg5tuaztukz.onion</a></li>
+          
+          <li><a href="http://uche2gajgenbobvg.onion">uche2gajgenbobvg.onion</a></li>
+          
+          <li><a href="http://n3jno2yhhgf3heke.onion">n3jno2yhhgf3heke.onion</a></li>
+          
+        </ul>
+    
+        <h3>Nightmare Market</h3>
+        <ul>
+          
+          <li><a href="http://iglteuxt34lsseq6.onion">iglteuxt34lsseq6.onion</a></li>
+          
+          <li><a href="http://njuqedodckfhgn7q.onion">njuqedodckfhgn7q.onion</a></li>
+          
+          <li><a href="http://3ela7l7fynbitz5c.onion">3ela7l7fynbitz5c.onion</a></li>
+          
+          <li><a href="http://63jatehbatzhajmo.onion">63jatehbatzhajmo.onion</a></li>
+          
+          <li><a href="http://iukz6dboazxqkepb.onion">iukz6dboazxqkepb.onion</a></li>
+          
+          <li><a href="http://gtpq3nbu5fhdgv65.onion">gtpq3nbu5fhdgv65.onion</a></li>
+          
+          <li><a href="http://udtbbqjomoi5ugdh.onion">udtbbqjomoi5ugdh.onion</a></li>
+          
+          <li><a href="http://jsisfwdahs5yma3m.onion">jsisfwdahs5yma3m.onion</a></li>
+          
+          <li><a href="http://dtd52p6x2xqrinrk.onion">dtd52p6x2xqrinrk.onion</a></li>
+          
+          <li><a href="http://j7yjd5hfow7pi2qs.onion">j7yjd5hfow7pi2qs.onion</a></li>
+          
+          <li><a href="http://qovegdhafyheke6a.onion">qovegdhafyheke6a.onion</a></li>
+          
+          <li><a href="http://u6aj7s7ney337g2v.onion">u6aj7s7ney337g2v.onion</a></li>
+          
+          <li><a href="http://efncwnwif6zsjyx6.onion">efncwnwif6zsjyx6.onion</a></li>
+          
+          <li><a href="http://6g4z2ndsze4xjjlq.onion">6g4z2ndsze4xjjlq.onion</a></li>
+          
+          <li><a href="http://xpsohtw53wxjalh2.onion">xpsohtw53wxjalh2.onion</a></li>
+          
+        </ul>
+    
+        <h3>Point /Tochka</h3>
+        <ul>
+          
+          <li><a href="http://vjkqrwlukslewocc.onion">vjkqrwlukslewocc.onion</a></li>
+          
+          <li><a href="http://sau3v2qeuki4zche.onion">sau3v2qeuki4zche.onion</a></li>
+          
+        </ul>
+    
+        <h3>Samsara Market</h3>
+        <ul>
+          
+          <li><a href="http://iumu6qwtg454bcb6.onion">iumu6qwtg454bcb6.onion</a></li>
+          
+          <li><a href="http://axeovpnht27mthqc.onion">axeovpnht27mthqc.onion</a></li>
+          
+          <li><a href="http://g4fkm44u3q6abzgi.onion">g4fkm44u3q6abzgi.onion</a></li>
+          
+          <li><a href="http://6rws4zdpaplbljeg.onion">6rws4zdpaplbljeg.onion</a></li>
+          
+          <li><a href="http://zof2uvkn5y2zst5w.onion">zof2uvkn5y2zst5w.onion</a></li>
+          
+          <li><a href="http://wdlwwjxcyrv54vs3.onion">wdlwwjxcyrv54vs3.onion</a></li>
+          
+          <li><a href="http://c5wttyhfhje7ig4b.onion">c5wttyhfhje7ig4b.onion</a></li>
+          
+          <li><a href="http://gg23n4mn6liwnn5l.onion">gg23n4mn6liwnn5l.onion</a></li>
+          
+          <li><a href="http://c7jpe5o3xz26tofo.onion">c7jpe5o3xz26tofo.onion</a></li>
+          
+          <li><a href="http://24wmcwnwpku3yxg6.onion">24wmcwnwpku3yxg6.onion</a></li>
+          
+          <li><a href="http://4vh2iykdm6qoa7ed.onion">4vh2iykdm6qoa7ed.onion</a></li>
+          
+          <li><a href="http://sbdyb7e4zmbyg4ra.onion">sbdyb7e4zmbyg4ra.onion</a></li>
+          
+          <li><a href="http://ho456srfcirdd4tg.onion">ho456srfcirdd4tg.onion</a></li>
+          
+          <li><a href="http://bujgmbhhaegbs6wo.onion">bujgmbhhaegbs6wo.onion</a></li>
+          
+        </ul>
+    
+        <h3>Silkroad 3.1</h3>
+        <ul>
+          
+          <li><a href="http://xqpuifsluchbrmdo.onion">xqpuifsluchbrmdo.onion</a></li>
+          
+        </ul>
+    
+        <h3>StealthBay</h3>
+        <ul>
+          
+          <li><a href="http://pq3on4txwfn7mv7g.onion">pq3on4txwfn7mv7g.onion</a></li>
+          
+          <li><a href="http://jqycoq2bxyqnpu5k.onion">jqycoq2bxyqnpu5k.onion</a></li>
+          
+          <li><a href="http://vsyulzagd4bxesvh.onion">vsyulzagd4bxesvh.onion</a></li>
+          
+        </ul>
+    
+        <h3>Tor Market</h3>
+        <ul>
+          
+          <li><a href="http://2ybydiviqbrbvc4d.onion">2ybydiviqbrbvc4d.onion</a></li>
+          
+        </ul>
+    
+        <h3>Yellow Brick</h3>
+        <ul>
+          
+          <li><a href="http://itfa42rybi3y2juy.onion">itfa42rybi3y2juy.onion</a></li>
+          
+          <li><a href="http://nhwtabl5cm5jp3ed.onion">nhwtabl5cm5jp3ed.onion</a></li>
+          
+          <li><a href="http://5rsx2vukoj5gyqag.onion">5rsx2vukoj5gyqag.onion</a></li>
+          
+          <li><a href="http://brcbngv26wuyrbrj.onion">brcbngv26wuyrbrj.onion</a></li>
+          
+          <li><a href="http://4tp4f7jwu5u43kby.onion">4tp4f7jwu5u43kby.onion</a></li>
+          
+          <li><a href="http://53dhq2b32upg4vyz.onion">53dhq2b32upg4vyz.onion</a></li>
+          
+          <li><a href="http://rlk2qmzizbur5g4u.onion">rlk2qmzizbur5g4u.onion</a></li>
+          
+          <li><a href="http://66lubmbon4k3l2xm.onion">66lubmbon4k3l2xm.onion</a></li>
+          
+          <li><a href="http://es4cnmnnl4gwamu3.onion">es4cnmnnl4gwamu3.onion</a></li>
+          
+        </ul>
+    
+        <h3>o3shop</h3>
+        <ul>
+          
+          <li><a href="http://edlgrymccuxhm2ff.onion">edlgrymccuxhm2ff.onion</a></li>
+          
+        </ul>
+    
+ </section>
+ </body>
+</html>
+
